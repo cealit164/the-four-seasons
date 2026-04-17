@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a4adca36f166c4e96bdd5f174c0863, type: 3}
+  m_Name: Rain Mode
+  m_EditorClassIdentifier: 
+  treeMaterial: {fileID: 2100000, guid: a3e35363f85bb154fab8a98d645a6b5b, type: 2}
+  buildingMaterial: {fileID: 0}
+  skyboxMaterial: {fileID: 2100000, guid: 80a6ff1f47ac5674086ff0c8b472121c, type: 2}
+  sunColor: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 0}
+  sunIntensity: 0.49
+  middayRotation: {x: 155.3, y: -33.25, z: 0}
+  nightRotation: {x: -151.4, y: 0, z: 0}
+  fogBaseColor: {r: 0, g: 0, b: 0, a: 1}
+  fogEmissionColor: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 0}
+  fogFarDistance: 63.68
+  fogDistortionStrength: 0
+  cloudDensity: 0
+  cloudColor: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a4adca36f166c4e96bdd5f174c0863, type: 3}
+  m_Name: Normal
+  m_EditorClassIdentifier: 
+  treeMaterial: {fileID: 2100000, guid: a3e35363f85bb154fab8a98d645a6b5b, type: 2}
+  buildingMaterial: {fileID: 0}
+  skyboxMaterial: {fileID: 2100000, guid: f93414505f5e9bd43aec25ce6116811f, type: 2}
+  sunColor: {r: 1, g: 1, b: 1, a: 0}
+  sunIntensity: 2
+  middayRotation: {x: 83.5, y: 80.78, z: 0}
+  nightRotation: {x: -90, y: 0, z: 0}
+  fogBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  fogEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  fogFarDistance: 20
+  fogDistortionStrength: 1
+  cloudDensity: 0
+  cloudColor: {r: 1, g: 1, b: 1, a: 0}
