@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7a4adca36f166c4e96bdd5f174c0863, type: 3}
   m_Name: Dust Mode
   m_EditorClassIdentifier: 
+  currentMode: 2
   treeMaterial: {fileID: 2100000, guid: a3e35363f85bb154fab8a98d645a6b5b, type: 2}
-  buildingMaterial: {fileID: 0}
   skyboxMaterial: {fileID: 2100000, guid: 6973ee5b9b157d54080d961a059d6137, type: 2}
   sunColor: {r: 0.7169812, g: 0.6865374, b: 0.1318975, a: 0}
   sunIntensity: 1.5
   middayRotation: {x: 114, y: 69.3, z: 0}
-  nightRotation: {x: -151.4, y: 0, z: 0}
   fogBaseColor: {r: 0, g: 0, b: 0, a: 1}
   fogEmissionColor: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 0}
   fogFarDistance: 63.68
   fogDistortionStrength: 0
+  cloudBaseColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  cloudEmissionColor: {r: 0.14150941, g: 0.11253027, b: 0.082102165, a: 1}
   cloudDensity: 0
   cloudColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0}
