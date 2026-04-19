@@ -30197,6 +30197,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 10
+  cam: {fileID: 330585545}
+  zoomSpeed: 0.01
+  minZoom: 20
+  maxZoom: 100
 --- !u!1001 &920583619
 PrefabInstance:
   m_ObjectHideFlags: 0
