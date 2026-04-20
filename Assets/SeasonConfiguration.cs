@@ -34,4 +34,7 @@ public class SeasonConfiguration : ScriptableObject
     [Header("Global Cloud Shader (Fluffy)")]
     public float cloudDensity = 0.5f;
     public Color cloudColor = Color.white;
+
+    [Header("Light")]
+    public bool light;
 }

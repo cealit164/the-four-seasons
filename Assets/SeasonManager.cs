@@ -20,8 +20,17 @@ public class SeasonManager : MonoBehaviour
 
     private Coroutine transitionCoroutine;
 
+    [Header("Light Groups")]
+    public GameObject[] Light;
+
+    //[Header("Animation Groups")]
+    //public Animator[] rainAnimation;
+
     private void Start()
     {
+        foreach(GameObject light in Light)
+            light.SetActive(false);
+
         // Apply the initial season immediately at start
         if (currentSeason != null)
             ApplySeasonImmediate(currentSeason);
@@ -49,6 +58,14 @@ public class SeasonManager : MonoBehaviour
 
         Color startCloudBase = cloudMaterial.GetColor("_BaseColor");
         Color startCloudEmission = cloudMaterial.GetColor("_EmissionColor");
+
+        //light
+        foreach(GameObject light in Light)
+            light.SetActive(target.light);
+
+        /*if (target.currentMode == CityMode.Rain)
+            foreach (Animator anim in rainAnimation)
+                anim.Play(0);*/
 
         float time = 0;
 
