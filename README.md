@@ -16,7 +16,7 @@ An interactive 3D environment of a smart city built in Unity, featuring dynamic 
 * **Language:** C#
 
 ## 📄 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE.md) file for details.
 
 ---
 *Developed by [cealit164](https://github.com/cealit164)*
